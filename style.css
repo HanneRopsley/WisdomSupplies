@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.page {
+    width: 60%;
+    height: 600px; 
+    background-color: black;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#page2 {
+    display: none;
+}
+
+.owl {
+    width: 100%;
+    height: 300px;
+}
+
+.owlimg {
+    width: 100%;
+    object-fit: contain;
+}
+
+.underowl {
+    width: 100%;
+    height: 200px;
+}
+
+.supplier {
+    width: 40%;
+    float:left;
+}
+
+.inputDiv1 {
+    width: 30%;
+    float:left;
+}
+
+.inputDiv2 {
+    width: 30%;
+    float:left;
+}
+
+.buttonBelow{
+    width: 20%;
+    margin: auto;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wisdom Supplies</title>
+</head>
+<body>
+    <div class='page' id='page1'>
+        <div class='owl'>
+            <img class='owlimg' src="images/owl2.jpg" alt="owl eyes">
+        </div>
+        <div class='underowl'>
+            <div class='supplier'>
+                <br>
+                <h1>Official Supplier of Wisdom since 2021</h1>
+            </div>
+            <div class='inputDiv1'>
+                <p>How are you feeling today?</p>
+                <br>
+                <input type="radio" name="feeling" value="happy">
+                <label for="happy">happy</label><br>
+                <input type="radio" name="feeling" value="sad">
+                <label for="sad">sad</label><br>
+                <input type="radio" name="feeling" value="stressed">
+                <label for="stressed">stressed</label><br>
+                <input type="radio" name="feeling" value="angry">
+                <label for="angry">angry</label><br>
+            </div>
+            <div class='inputDiv2'>
+                <p>What's the context?</p>
+                <br>
+                <input type="radio" name="context" value="work">
+                <label for="work">work</label><br>
+                <input type="radio" name="context" value="family or friends">
+                <label for="sad">family or friends</label><br>
+                <input type="radio" name="context" value="love">
+                <label for="love">love</label><br>
+            </div>
+        </div>
+        <div class='buttonBelow'>
+            <button id="giveWisdom" onclick="showWisdom()">Give me some wisdom</button>
+        </div>
+    </div>
+    <div class='page' id='page2'>
+        <div class='owl'>
+            <img class='owlimg' src="images/owl2.jpg" alt="owl eyes">
+        </div>
+        <div class='underowl'>
+            <div class='supplier'>
+                <br>
+                <h1>Official Supplier of Wisdom since 2021</h1>
+            </div>
+            <div class="wisdomStatement">
+                <h2>Here's your piece of wisdom</h2>
+            </div>
+        </div>
+        <div class='buttonBelow'>
+            <button onclick='backHome()'>and again</button>
+        </div>
+    </div>
+<script src='script.js'></script>
+</body>
+</html>
